@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>News für Kinder und Jugendliche – Die neusten News aus Deutschland</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background: linear-gradient(135deg, #e0f7fa, #f3e5f5);
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      background: linear-gradient(to right, #6366f1, #4f46e5);
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+      width: 100%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 2.4rem;
+    }
+
+    header p {
+      margin-top: 0.5rem;
+      font-size: 1.2rem;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 1.5rem;
+      padding: 2rem;
+      max-width: 1000px;
+    }
+
+    .news-card {
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      padding: 1.5rem;
+      width: 200px;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      cursor: pointer;
+    }
+
+    .news-card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    }
+
+    .news-card h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .news-card a {
+      text-decoration: none;
+      color: white;
+      background-color: #6366f1;
+      padding: 0.6rem 1.2rem;
+      border-radius: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      transition: background-color 0.3s ease;
+      display: inline-block;
+    }
+
+    .news-card a:hover {
+      background-color: #4338ca;
+    }
+
+    .message {
+      text-align: center;
+      font-size: 1.2rem;
+      margin: 2rem 0;
+      color: #444;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem 1rem;
+      background-color: #f0f4ff;
+      color: #555;
+      width: 100%;
+      margin-top: auto;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hallo, Willkommen zu den Nachrichten für Kinder und Jugendliche!</h1>
+    <p>Nachrichten, die du wirklich verstehst 💡</p>
+  </header>
+
+  <div class="container">
+    <div class="news-card">
+      <h2>Politik</h2>
+      <a href="politik.html">Mehr erfahren</a>
+    </div>
+    <div class="news-card">
+      <h2>Umwelt</h2>
+      <a href="umwelt.html">Mehr erfahren</a>
+    </div>
+    <div class="news-card">
+      <h2>Schule</h2>
+      <a href="schule.html">Mehr erfahren</a>
+    </div>
+    <div class="news-card">
+      <h2>Tech</h2>
+      <a href="tech.html">Mehr erfahren</a>
+    </div>
+    <div class="news-card">
+      <h2>Trends</h2>
+      <a href="trends.html">Mehr erfahren</a>
+    </div>
+    <div class="news-card">
+      <h2>Streik</h2>
+      <a href="streik.html">Mehr erfahren</a>
+    </div>
+  </div>
+
+  <p class="message">Wir wünschen dir einen wunderschönen Tag! 😊</p>
+
+  <footer>
+    <p>© 2025 News für Kinder und Jugendliche – Für dich erklärt</p>
+  </footer>
+
+</body>
+</html>
+
